@@ -5,12 +5,29 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+You can also find my articles on <a href="https://scholar.google.com/citations?user=YOUR_ID">my Google Scholar profile</a>.
 
-{% include base_path %}
-
+<h2>Journal Papers</h2>
+<ul>
 {% for post in site.publications reversed %}
-  {% include archive-single.html %}
+  {% if post.type == 'journal' %}
+    <li>
+      <b><a href="{{ post.paperurl }}">{{ post.title }}</a></b><br>
+      <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}<br>
+      <small>Authors: {{ post.citation | split: '"' | first | strip }}</small>
+    </li>
+  {% endif %}
 {% endfor %}
+</ul>
+
+<h2>Conference Papers</h2>
+<ul>
+{% for post in site.publications reversed %}
+  {% if post.type == 'conference' %}
+    <li>
+      <b><a href="{{ post.paperurl }}">{{ post.title }}</a></b><br>
+      <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>
