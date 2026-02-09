@@ -13,8 +13,7 @@ You can also find my articles on <a href="https://scholar.google.com/citations?u
   {% if post.type == 'journal' %}
     <li>
       <b><a href="{{ post.paperurl }}">{{ post.title }}</a></b><br>
-      <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}<br>
-      <small>Authors: {{ post.citation | split: '"' | first | strip }}</small>
+      <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}
     </li>
   {% endif %}
 {% endfor %}
