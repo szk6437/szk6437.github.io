@@ -12,15 +12,12 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Research Interests"
-    url: /research/
-
-  - title: "Projects"
+  - title: "Current Projects"
     url: /projects/
-    
-  - title: "Blog Posts"
-    url: /year-archive/
 
   - title: "CV"
     url: /cv/
+
+  - title: "Events"
+    url: /events/
 
