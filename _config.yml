@@ -12,11 +12,11 @@ locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "This is Sahand / Personal Website"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Sahand"
 description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : "https://szk6437.github.io"
 baseurl                  : ""
-repository               : "academicpages/academicpages.github.io"
+repository               : "szk6437/szk6437.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
