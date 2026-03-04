@@ -5,8 +5,4 @@ author_profile: true
 ---
 
 ## 2026
-* **March 2026:** Launched my new academic website! 
-* **January 2026:** Started exploring the modeling of marine vehicles, specifically focusing on kinematics.
-
-## 2025
-* **December 2025:** Submitted our paper on Data-Driven Computation of Polytopic Invariant Sets.
+* **March 2026:** Our paper, *"Robust Data-Driven Invariant Sets for Nonlinear Systems,"* has been accepted for publication at the 2026 American Control Conference (ACC). Looking forward to presenting in New Orleans, LA.
