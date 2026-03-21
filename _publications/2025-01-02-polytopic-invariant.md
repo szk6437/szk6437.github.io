@@ -1,5 +1,5 @@
 ---
-title: "Data-Driven Computation of Polytopic Invariant Sets for Noisy Nonlinear Systems"
+title: "Robust Data-Driven Invariant Sets for Nonlinear Systems"
 collection: publications
 type: "conference"
 permalink: /publication/2025-01-02-polytopic-invariant
